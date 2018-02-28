@@ -1,3 +1,5 @@
+// DO WHILE, FOR IN (mais lento do que o FOR)
+
 // Envolva todo o código desse arquivo em uma IIFE (incluindo esse comentário).
 
 /*
@@ -7,14 +9,23 @@ loop, mostre no console a mensagem:
 'Entrou ao menos uma vez!'
 Qual loop você deve usar para que essa mensagem seja mostrada no console?
 */
-// ?
+var once = false;
+
+do {
+  'Entrou ao menos uma vez!'
+} while (once === true);
 
 /*
 Crie um objeto chamado `person`, que receba as seguintes propriedades:
 - 'name', 'age', 'weight' e 'birthday'. Preencha com os valores corretos
 para o nome, idade, peso e data de nascimento dessa pessoa.
 */
-// ?
+var person = {
+  name: 'Natália',
+  age: 25,
+  weight: 40.20,
+  birthday: '09/03/1993',
+}
 
 /*
 Use um loop para percorrer o objeto criado acima, mostrando no console
